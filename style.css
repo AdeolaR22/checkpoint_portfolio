@@ -1,0 +1,91 @@
+
+*  {
+  box-sizing: border-box;
+}
+/* Header and navbar */
+.site-header {
+  background-color: #f31414;
+  box-shadow: 0 2px 10px green;
+  padding: 16px 32px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flexs;
+  gap: 24px;
+}
+.nav-link {
+  text-decoration: none;
+  color: blue;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+.nav-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+
+body{
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+/* Hero section */
+.hero {
+  padding: 80px 32px;
+  text-align: center;
+  background: green;
+}
+.hero-title {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+.hero-text {
+  font-size: 18px;
+  color: purple;
+}
+/* Sections */
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px;
+}
+.section-title {
+  font-size: 28px;
+  border-left: 5px solid #0077ff;
+  padding-left: 12px;
+}
+/* Project card */
+.project-card {
+  background: red;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px green(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.project-title {
+  margin-top: 0;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  background-color: green;
+  color: black;
+}
